@@ -45,7 +45,7 @@ const ProductForm = ({title ,items, valueBtn ,typeBtn ,setData,item}) => {
             <label className=" w-100 h-60 cursor-pointer bg-[url('/api-project//assets/images/upload-image.jpg')] bg-cover bg-center rounded-2xl">
                 <img 
                 src= {uploadImage ||imagValue}
-                className=" w-full h-full object-cover border-2 border-dashed border-blue-400 shadow-md hover:opacity-90 transition rounded-2xl" />
+                className=" w-full h-full  border-2 border-dashed border-blue-400 shadow-md hover:opacity-90 transition rounded-2xl" />
                 <input
                 type= "file"
                 name="image"

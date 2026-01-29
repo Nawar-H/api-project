@@ -39,7 +39,7 @@ const SideBar = ({logo1 , logo2 , items }) => {
                                 navigate("/login")
                                 toast.success(
                                     <div className="flex items-center gap-2">
-                                        <CiCircleCheck size={22} className="text-red-400"/>
+                                        <CiCircleCheck size={22} className="text-green-400"/>
                                         <span className="text-black dark:text-white">Logged out successfully!</span>
                                     </div>,
                                     {position: "top-right",
